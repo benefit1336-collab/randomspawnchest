@@ -1,0 +1,15 @@
+name: RandomSpawnChest
+version: '1.0-SNAPSHOT'
+main: net.geferon.minecraft.randomspawnchest.RandomSpawnChestPlugin
+api-version: 1.19
+authors: [ Geferon ]
+description: Random spawn with chest plugin
+commands:
+  resetspawn:
+    description: "Resets player spawn"
+    usage: /<command> [player]
+    permission: randomspawnchest.resetspawncmd
+permissions:
+  randomspawnchest.resetspawncmd:
+    default: op
+    description: Permission to run /resetspawn command
